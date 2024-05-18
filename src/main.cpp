@@ -15,18 +15,18 @@ void loop() {
 M5.update();
 if (M5.BtnA.wasReleased() || M5.BtnA.pressedFor(1000, 200)) {
 M5.Lcd.clearDisplay();
-M5.Lcd.setCursor(120, 100);
-M5.Lcd.println("Boton1");
+M5.Lcd.setCursor(80, 100);
+M5.Lcd.println("Boton1 Pulsado");
 SetVibration(100);
 } else if (M5.BtnB.wasReleased() || M5.BtnB.pressedFor(1000, 200)) {
 M5.Lcd.clearDisplay();
-M5.Lcd.setCursor(120, 100);
-M5.Lcd.println("Boton2");
+M5.Lcd.setCursor(80, 100);
+M5.Lcd.println("Boton2 Pulsado");
 SetVibration(100);
 } else if (M5.BtnC.wasReleased() || M5.BtnC.pressedFor(1000, 200)) {
 M5.Lcd.clearDisplay();
-M5.Lcd.setCursor(120, 100);
-M5.Lcd.println("Boton3");
+M5.Lcd.setCursor(80, 100);
+M5.Lcd.println("Boton3 Pulsado");
 SetVibration(100);
 }
 }
