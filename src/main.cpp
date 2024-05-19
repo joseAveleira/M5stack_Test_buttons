@@ -10,6 +10,8 @@ M5.begin();
 M5.Lcd.setTextFont(2);
 M5.Lcd.setTextSize(2);
 M5.Lcd.setTextColor(GREEN , BLACK);
+M5.Lcd.setCursor(80, 100);
+M5.Lcd.println("M5Stack Core2");
 }
 void loop() {
 M5.update();
